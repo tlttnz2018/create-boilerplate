@@ -1,0 +1,6 @@
+// tsconfig.build.json
+// exclude tests in dist
+{
+  "extends": "./tsconfig.json",
+  "exclude": ["**/*.test.*", "**/__mocks__/*", "**/__tests__/*", "**/*.config.*"]
+}
